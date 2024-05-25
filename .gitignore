@@ -1,0 +1,27 @@
+# Ignore compiled Python files
+*.pyc
+
+# Ignore virtual environment
+venv/
+.venv/
+
+# Ignore IDE files
+.idea/
+.vscode/
+
+# Ignore environment-specific files
+*.env
+
+# Ignore log files
+*.log
+
+# Ignore package metadata
+*.egg-info/
+databases/
+face_database/*
+face_database/unknown_faces/
+!face_database/unknown_faces/**
+
+data/
+video_data/
+token.txt
